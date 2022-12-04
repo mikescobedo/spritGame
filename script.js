@@ -22,13 +22,13 @@ const spriteHeight = 523;
 function animateTwo() {
     if (frameY == 0) repetitions = 6;
     else if (frameY == 1) repetitions = 6;
-    else if (frameY == 2) repetitions = 6;
+    else if (frameY == 2) repetitions = 9;
     else if (frameY == 3) repetitions = 8;
-    else if (frameY == 4) repetitions = 10;
+    else if (frameY == 4) repetitions = 5;
     else if (frameY == 5) repetitions = 4;
     else if (frameY == 6) repetitions = 6;
     else if (frameY == 7) repetitions = 6;
-    else if (frameY == 8) repetitions = 11;
+    else if (frameY == 8) repetitions = 8;
     else if (frameY == 9) repetitions = 3;
 }
 

@@ -1,9 +1,39 @@
+body{
+    background-image: url(../jardin2.jpg);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    
+}
+
 #canvas1 {
-    border: 5px solid black;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 600px;
-    height: 600px;
+    width: 700px;
+    height: 700px;
+}
+#rules{
+    border: 3px solid rgb(43, 226, 113);
+    border-radius: 25px;   
+    position:fixed;
+    align-items: flex-end;
+    margin-right: 2%;
+    margin-left:2%;
+    margin-top: 2%;
+}
+#up{
+    color:black;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: blanchedalmond;
+}
+#down{
+    color: rebeccapurple;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: blanchedalmond;
 }
